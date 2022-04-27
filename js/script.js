@@ -14,7 +14,7 @@ $(document).ready(function () {
   })(jQuery);
 
   // input text for typing animation
-  $("#holder").writeText("TAMIL  VIP");
+  $("#holder").writeText("SANJAY SK");
   
   // initialize wow.js
   new WOW().init();
@@ -265,7 +265,7 @@ var sender = function () {
 
 function updateCounter(){
 
-  fetch("https://api.countapi.xyz/update/tamil/vipvews/?amount=1")
+  fetch("https://api.countapi.xyz/update/SANJAY/SKvews/?amount=1")
   .then(res=>res.json())
   .then(data=> counterElement.innerHTML=data.value)
 
